@@ -240,7 +240,7 @@ async def start(client, message):
         file_id=file_id,
         caption=f_caption,
         reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('SUBSCRIBE', url='https://www.youtube.com/channel/UClyoddZe9TSmEqV10a8GITQ') ] ] ),
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('FOLLOW INSTA', url='https://www.instagram.com/_abhikaran_khera/') ] ] ),
+        
         protect_content=True if pre == 'filep' else False,
         )
                     
